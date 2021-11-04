@@ -29,7 +29,7 @@ function dayOfWeek(day) {
 }
 
 async function getWeatherAndTime(place) {
-    const url =`http://api.worldweatheronline.com/premium/v1/weather.ashx?key=bf9d673488df4611ad6162034212710&q=${place}&num_of_days=5&format=json`
+    const url =`https://api.worldweatheronline.com/premium/v1/weather.ashx?key=bf9d673488df4611ad6162034212710&q=${place}&num_of_days=5&format=json`
     const url2 = `https://api.ipgeolocation.io/timezone?apiKey=0ff5b49972ae415a8ea04c643e86b36b&location=${place}`
     const res = await fetch(url)
     const res2 = await fetch(url2)
