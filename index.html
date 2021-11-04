@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Погода</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="weather">
+        
+        <div class="weather_inner">
+            <div class="conditions"> 
+                
+               <div class="city">
+                    <input  type="text" placeholder="Enter city">
+                    <div hidden class="cityText"></div>
+                </div> 
+
+                <div class="clear">
+                    <img src="./pic/64x64/night/122.png" alt="" height="64" weight="64"/>
+                    <div class="clearMoon"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+            <div class="current">  
+                <div class="current_temperature">--℃</div>
+                <img src="./pic/humidity.png" alt="humidity" width="30"; height="30"/>
+                 <div class="humidityPercent">--%</div>
+                <img src="./pic/pressure.png" alt="pressure" width="30"; height="30"/>
+                 <div class="pressurePercent">--</div>
+                 <img src="./pic/wind.jpg" alt="wind" width="30"; height="30"/>
+                <div class="windKm">--</div>
+            </div> 
+        
+        <div class="details">
+            <img id="settings" src="./pic/settings.png" alt="settings" style="align-self: flex-start; padding-top:20px ;"/>
+            <div class="High">High</div>
+            <div class="low"> Low</div>
+        </div>
+        
+            
+            <div class="forecastItem">
+                <div class="forecastDay">Today</div>
+                <img src="" alt=""/>
+                <div class="desciption">-----</div>
+                <div class="degreeRed">--℃</div>
+                <div class="degreeBlue">--℃</div>
+            </div>
+
+            <div class="forecastItem">
+                <div class="forecastDay">Sunday</div>
+                <img src="" alt=""/>
+                <div class="desciption">-----</div>
+                <div class="degreeRed">--℃</div>
+                <div class="degreeBlue">-℃</div>
+            </div>
+         
+            <div class="forecastItem">
+                <div class="forecastDay">Monday</div>
+                <img src="" alt=""/>
+                <div class="desciption">-----</div>
+                <div class="degreeRed">--℃</div>
+                <div class="degreeBlue">--℃</div>
+            </div>
+
+            <div class="forecastItem">
+                <div class="forecastDay">Tuesday</div>
+                <img src="" alt=""/>
+                <div class="desciption">-----</div>
+                <div class="degreeRed">--℃</div>
+                <div class="degreeBlue">--℃</div>
+            </div>
+
+            <div class="forecastItem">
+                <div class="forecastDay">Wednesday</div>
+                <img src="" alt=""/>
+                <div class="desciption">-----</div>
+                <div class="degreeRed">--℃</div>
+                <div class="degreeBlue">--℃</div>
+            </div>
+
+    <script src='./code.js'></script>
+</body>
+
+</html>
+
